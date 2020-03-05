@@ -1,1 +1,28 @@
-<mxfile host="www.draw.io" modified="2020-03-05T08:20:17.654Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" version="12.7.9" etag="jbZAJu6k5K5jrnM-6ip2" type="github"><diagram id="4DgC_EgKz2GMC5mEclD8">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-03-05T08:47:26.015Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="zoAIU5n0XhcgmKohIV2f" version="12.7.9" type="github">
+  <diagram id="4DgC_EgKz2GMC5mEclD8" name="Page-1">
+    <mxGraphModel dx="780" dy="1144" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Herc0y6oarTP5YQy2qwz-1" value="&lt;p style=&quot;line-height: 100%&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;UC: Boot up ATM&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;TUCBW: The operator turns the key to on&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;TUCEW: The ATM boots up and goes to its idle screen&lt;/font&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="400" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Herc0y6oarTP5YQy2qwz-2" value="&lt;p style=&quot;line-height: 100%&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;UC: Shutdown the ATM&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;TUCBW: The operator turns the key to off&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;TUCEW: The ATM shutsdown&lt;/font&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="290" y="400" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Herc0y6oarTP5YQy2qwz-3" value="&lt;p style=&quot;line-height: 100%&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;UC: Transaction&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;TUCBW: Customer interacts with the ATM and chooses what transaction they want to take&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;TUCEW: ATM switches to whic ever transaction is chosen&lt;/font&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="160" y="640" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Herc0y6oarTP5YQy2qwz-4" value="&lt;p style=&quot;line-height: 100%&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;UC: Transfer&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;TUCBW: User selects two accounts and the amount to transfer&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;TUCEW: ATM contacts the bank to transfer the funds from one accoutn to another&lt;/font&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="10" y="870" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Herc0y6oarTP5YQy2qwz-5" value="&lt;p style=&quot;line-height: 100%&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;UC: Deposit&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;TUCBW: User selects the account they wish to make a deposit to then select cash or check then deposits either into the apropreate receptical&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;TUCEW: The ATM will collect and scan the money or check then forward this information to the bank to update the account.&lt;/font&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="260" y="870" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Herc0y6oarTP5YQy2qwz-6" value="&lt;p style=&quot;line-height: 100%&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;UC: Withdrawl&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;TUCBW: User selects the account they would like to withdrawl from and how much they would liek to withdraw in increments of 20$&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;TUCEW: The ATM checks with the bank to see if the withdrawl is exceptable then dispenses currency.&amp;nbsp;&lt;/font&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="500" y="870" width="200" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
